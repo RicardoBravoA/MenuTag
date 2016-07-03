@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tagGroup="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_one"/>
+
+    <com.rba.menutag.util.control.tag.TagGroup
+        android:id="@+id/tagGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tagGroup:deselectedColor="@color/deselected_color"
+        tagGroup:deselectedFontColor="@color/deselected_font_color"
+        tagGroup:selectedColor="@color/selected_color"
+        tagGroup:selectedFontColor="@color/selected_font_color"
+        tagGroup:deselectTransitionMS="@integer/deselectTransition"
+        tagGroup:selectTransitionMS="@integer/selectTransition"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_two"/>
+
+    <com.rba.menutag.util.control.tag.TagGroup
+        android:id="@+id/tagGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tagGroup:deselectedColor="@color/deselected_color"
+        tagGroup:deselectedFontColor="@color/deselected_font_color"
+        tagGroup:selectedColor="@color/selected_color"
+        tagGroup:selectedFontColor="@color/selected_font_color"
+        tagGroup:deselectTransitionMS="@integer/deselectTransition"
+        tagGroup:selectTransitionMS="@integer/selectTransition"/>
+
+
+    <Button
+        android:id="@+id/btnResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/result"/>
+
+    <TextView
+        android:id="@+id/lblResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

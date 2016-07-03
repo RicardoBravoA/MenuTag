@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MenuTag</string>
+    <string name="result">Resultados</string>
+    <string name="group_one">Grupo 1</string>
+    <string name="group_two">Grupo 2</string>
+    <string name="not_tags">Tags no seleccionados</string>
+    <string name="not_tags_group1">Tags Grupo 1 no seleccionados</string>
+    <string name="not_tags_group2">Tags Grupo 2 no seleccionados</string>
+</resources>
